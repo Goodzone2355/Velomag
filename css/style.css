@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #18191B ;
+}
+
+body{
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background-color: #F6F4F4;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #313131
+}
+  
+.header-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: FontAwesome;
+}
+
+.menu li{
+    margin: 0 2vh;
+}
+
+.menu li:nth-child(1)::before{
+    font-family: FontAwesome;
+    content: "\f124";
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.header-inner a{
+    color: #fff;
+    font-size: 22px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+
+.contact{
+    margin-right:  2vh;
+}
+
+.contact::before{
+    font-family: FontAwesome;
+    content: "\f2a0";
+    color: #fff;
+    font-size: 22px;
+}
+
+.header-second{
+    background-color: #fff;
+}
+
+.logo-img{
+    object-fit: contain;
+    width: 200px;
+    height: 50px;
+}
+
+.container-second{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header-inner-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    margin-top: 10px ;
+}
+
+.container-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 770px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.loopa{
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.text-search{
+    margin-right: 500px;
+}
+
+.text-search-text{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #18191B;
+}
+
+.cta-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0086ED;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cta-search-text{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #E4E5E0;
+}
+
+.header-inner2-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.function{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2vh;
+}
+
+.loopa-function{
+    display: none;
+}
+
+.login, .comprasion, .love, .basket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamb-menu {
+    display: none;
+    width: 35px;
+    height: 26px;
+    border: 1px solid #000;
+    position: relative;
+  }
+  .hamp-item {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #000;
+    left: calc(50% - 12px);
+    transition: 0.5s;
+    transform-origin: 50% 50%;
+  }
+  .hamp-item-1 {
+    top: 7px;
+  }
+  .hamp-item-2 {
+    top: 12px;
+  }
+  .hamp-item-3 {
+    top: 17px;
+  }
+  .hamb-menu:hover .hamp-item-1 {
+    transform: rotate(45deg);
+    /* left: calc(50% - 12px); */
+    top: calc(50%);
+  }
+  .hamb-menu:hover .hamp-item-3 {
+    transform: rotate(-45deg);
+    /* left: calc(50% -12px); */
+    top: calc(50%);
+  }
+  .hamb-menu:hover .hamp-item-2 {
+    transform: scale(0);
+  }
+
+.hamb-menu-text{
+    display: none;
+}
+
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.menu2 li{
+    margin: 0 3.4vh;
+}
+
+.menu2 li:nth-child(1){
+    margin-left: 2vh;
+}
+
+/* promo */
+.promo-img{
+    width: 100%;
+    height: calc(468px + 2vh)
+}
+
+.promo-img-img{
+    width: calc(1320px - 2vh);
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+.promo-inner{
+    width: calc(1320px - 2vh);
+    margin-left: 2vh;
+    margin-top: 2vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stels, .shimano, .merida, .cube{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.shimano-img{
+    height: 40px;
+}

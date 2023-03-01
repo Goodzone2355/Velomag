@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+    .function{
+        max-width: 150px;
+        margin-right: 1vh;
+    }
+    
+    .login, .comprasion, .love, .basket{
+        width: 25px;
+    }
+
+    .function-icons{
+        width: 25px;
+    }
+
+    .loopa-function{
+        font-size: 17px;
+    }
+}
